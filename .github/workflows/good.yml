@@ -34,6 +34,6 @@ jobs:
         arguments: build
     - name: Gradle Build Action
       with:
-        gradle-version: 6.5
+        gradle-version: 7.4.1
 
   
