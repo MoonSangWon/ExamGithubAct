@@ -18,6 +18,7 @@ import static javax.persistence.GenerationType.AUTO;
 public class Lectures {
    @Id
    @GeneratedValue(strategy = AUTO)
+
    private Long id;
    private String lecture;
    private String professor;
