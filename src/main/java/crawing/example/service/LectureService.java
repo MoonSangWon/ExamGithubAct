@@ -31,11 +31,11 @@ public class LectureService implements LectureServiceIn{
         System.setProperty("Webdriver.chrome.driver","assets/drivers/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
 
-        //ChromeOptions options = new ChromeOptions();
+        ChromeOptions options = new ChromeOptions();
         options.addArguments("--start-maximized");
         options.addArguments("--headless");
 
-        //driver.get("https://everytime.kr/login");
+        driver.get("https://everytime.kr/login");
         log.info("페이지 로딩 중...{}",driver.getCurrentUrl());
         try {
 
