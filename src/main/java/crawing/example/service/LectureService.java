@@ -38,6 +38,7 @@ public class LectureService implements LectureServiceIn{
         driver.get("https://everytime.kr/login");
         log.info("페이지 로딩 중...{}",driver.getCurrentUrl());
         try {
+            
             //아이디 입력//
             WebElement text_box_id = driver.findElement(By.name("userid"));
             text_box_id.clear();
