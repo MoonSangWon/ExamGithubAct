@@ -28,7 +28,7 @@ public class LectureService implements LectureServiceIn{
     List<WebElement> webLocation = null;
     @PostConstruct
     public void getLectureService() throws InterruptedException, IOException {
-        System.setProperty("Webdriver.chrome.driver","assets/drivers/chromedriver.exe");
+        System.setProperty("Webdriver.chrome.driver","Users/moon/examplegithubAction/ExamGithubAct/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
 
         ChromeOptions options = new ChromeOptions();
