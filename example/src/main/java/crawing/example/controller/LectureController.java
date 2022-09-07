@@ -15,7 +15,6 @@ import java.util.List;
 @RequestMapping("/main")
 @RequiredArgsConstructor
 public class LectureController {
-
     
     private final LectureService lectureService;
     @GetMapping("/lecture")
