@@ -31,7 +31,7 @@ public class LectureService implements LectureServiceIn{
         System.setProperty("Webdriver.chrome.driver","assets/drivers/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
 
-        ChromeOptions options = new ChromeOptions();
+        //ChromeOptions options = new ChromeOptions();
         options.addArguments("--start-maximized");
         options.addArguments("--headless");
 
